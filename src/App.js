@@ -1,76 +1,92 @@
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
-import {BrowserRouter, Routes, Route } from "react-router-dom";
-import 'swiper/css';
-
-
-import ScrollToTop from "./component/layout/ScrollToTop";
-import ErrorPage from "./page/404";
-import AboutPage from "./page/about";
-import BlogPage from "./page/blog";
-import BlogPageTwo from "./page/blog-2";
-import BlogPageThree from "./page/blog-3";
-import BlogSingle from "./page/blog-single";
-import CartPage from "./page/cart-page";
-import ContactPage from "./page/contact";
-import CoursePage from "./page/course";
-import CourseSingle from "./page/course-single";
-import CourseView from "./page/course-view";
-import ForgetPass from "./page/forgetpass";
-import Home from "./page/home";
-import HomeTwo from "./page/home-2";
-import HomeThree from "./page/home-3";
-import HomeFour from "./page/home-4";
-import HomeFive from "./page/home-5";
-import HomeSix from "./page/home-6";
-import HomeSeven from "./page/home-7";
-import InstructorPage from "./page/instructor";
-import LoginPage from "./page/login";
-import SearchNone from "./page/search-none";
-import SearchPage from "./page/search-page";
-import ShopPage from "./page/shop";
-import ShopDetails from "./page/shop-single";
-import SignupPage from "./page/signup";
-import TeamPage from "./page/team";
-import TeamSingle from "./page/team-single";
-
-
+import HomeOne from "./Components/Home/HomeOne";
+import HomeThree from "./Components/Home/HomeThree";
+import HomeTwo from "./Components/Home/HomeTwo";
+import ErrorPage from "./Components/Pages/404Page";
+import AboutOne from "./Components/Pages/AboutOne";
+import AboutTwo from "./Components/Pages/AboutTwo";
+import BLogStandard from "./Components/Pages/BLogStandard";
+import ContactUs from "./Components/Pages/ContactUs";
+import Courses from "./Components/Pages/Courses";
+import CourseSideBar from "./Components/Pages/CourseSideBar";
+import Event from "./Components/Pages/Event";
+import EventSingle from "./Components/Pages/EventSingle";
+import InstructorDetails from "./Components/Pages/InstructorDetails";
+import InstructorOne from "./Components/Pages/InstructorOne";
+import InstructorTwo from "./Components/Pages/InstructorTwo";
+import SingleBlog from "./Components/Pages/SingleBlog";
+import SingleCourse from "./Components/Pages/SingleCourse";
+import Thanks from "./Components/Pages/Thanks";
 
 function App() {
-	return (
-		<BrowserRouter>
-			<ScrollToTop />
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="index-2" element={<HomeTwo />} />
-				<Route path="index-3" element={<HomeThree />} />
-				<Route path="index-4" element={<HomeFour />} />
-				<Route path="index-5" element={<HomeFive />} />
-				<Route path="index-6" element={<HomeSix />} />
-				<Route path="index-7" element={<HomeSeven />} />
-				<Route path="course" element={<CoursePage />} />
-				<Route path="course-single" element={<CourseSingle />} />
-				<Route path="course-view" element={<CourseView />} />
-				<Route path="blog" element={<BlogPage />} />
-				<Route path="blog-2" element={<BlogPageTwo />} />
-				<Route path="blog-3" element={<BlogPageThree />} />
-				<Route path="blog-single" element={<BlogSingle />} />
-				<Route path="about" element={<AboutPage />} />
-				<Route path="team" element={<TeamPage />} />
-				<Route path="team-single" element={<TeamSingle />} />
-				<Route path="instructor" element={<InstructorPage />} />
-				<Route path="shop" element={<ShopPage />} />
-				<Route path="shop-single" element={<ShopDetails />} />
-				<Route path="cart-page" element={<CartPage />} />
-				<Route path="search-page" element={<SearchPage />} />
-				<Route path="search-none" element={<SearchNone />} />
-				<Route path="contact" element={<ContactPage />} />
-				<Route path="login" element={<LoginPage />} />
-				<Route path="signup" element={<SignupPage />} />
-				<Route path="forgetpass" element={<ForgetPass />} />
-				<Route path="*" element={<ErrorPage />} />
-			</Routes>
-		</BrowserRouter>
-	);
+  return (
+    <BrowserRouter>
+      <div className="font-gilroy font-medium text-gray text-lg leading-[27px]">
+        <Routes>
+          <Route
+            path="/"
+            element={<Navigate to={"/react-templates/edumim"} />}
+          />
+          <Route path="/react-templates/edumim" element={<HomeOne />} />
+          <Route
+            path="/react-templates/edumim/home-two"
+            element={<HomeTwo />}
+          />
+          <Route
+            path="/react-templates/edumim/home-three"
+            element={<HomeThree />}
+          />
+          <Route path="/react-templates/edumim/about" element={<AboutOne />} />
+          <Route
+            path="/react-templates/edumim/about-two"
+            element={<AboutTwo />}
+          />
+          <Route
+            path="/react-templates/edumim/instructor"
+            element={<InstructorOne />}
+          />
+          <Route
+            path="/react-templates/edumim/instructor-two"
+            element={<InstructorTwo />}
+          />
+          <Route
+            path="/react-templates/edumim/instructor-details"
+            element={<InstructorDetails />}
+          />
+          <Route path="/react-templates/edumim/event" element={<Event />} />
+          <Route
+            path="/react-templates/edumim/event-single"
+            element={<EventSingle />}
+          />
+          <Route path="/react-templates/edumim/error" element={<ErrorPage />} />
+          <Route path="/react-templates/edumim/courses" element={<Courses />} />
+          <Route
+            path="/react-templates/edumim/courses-sidebar"
+            element={<CourseSideBar />}
+          />
+          <Route
+            path="/react-templates/edumim/single-course"
+            element={<SingleCourse />}
+          />
+          <Route
+            path="/react-templates/edumim/blog-standard"
+            element={<BLogStandard />}
+          />
+          <Route
+            path="/react-templates/edumim/single-blog"
+            element={<SingleBlog />}
+          />
+          <Route
+            path="/react-templates/edumim/contacts"
+            element={<ContactUs />}
+          />
+          <Route path="/react-templates/edumim/thanks" element={<Thanks />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
+  );
 }
 
 export default App;
