@@ -1,6 +1,6 @@
 import React from "react";
 import mailIcon from "../assets/images/icon/mail.svg";
-import ManOne from "../assets/images/banner/man1.png";
+import ManOne from "../assets/images/banner/prof.png";
 
 const Banner = () => {
   return (
@@ -42,7 +42,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="imge-box absolute xl:right-[-260px]  hidden xl:block   bottom-0  ">
+        <div className="imge-box absolute xl:right-[-260px] hidden xl:block   bottom-0  ">
           <img src={ManOne} alt="manOne" />
         </div>
       </div>

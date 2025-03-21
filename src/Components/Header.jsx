@@ -30,7 +30,7 @@ const Header = () => {
                 to={"/react-templates/edumim"}
                 className="brand-logo flex-none lg:mr-10 md:w-auto max-w-[120px] "
               >
-                <img src={logo} alt="logo" className="w-20 h-15"/>
+                <img src={logo} alt="logo" className="w-20 h-auto"/>
               </Link>
               <div className="flex items-center flex-1">
                 <div className="flex-1 main-menu relative mr-[74px]">
@@ -158,7 +158,7 @@ const Header = () => {
                 <div className="flex-none flex space-x-[18px]">
                   <div className=" hidden lg:block">
                     <a href="/react-templates/edumim/contacts" className="btn btn-primary py-[15px] px-8 mr-10">
-                    Contacts
+                    Contact us
                       
                     </a>
                   </div>

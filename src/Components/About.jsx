@@ -12,14 +12,13 @@ const About = () => {
             <img src={aboutOne} alt="aboutOne" className=" mx-auto" />
           </div>
           <div>
-            <div className="mini-title">About Edumim</div>
+            <div className="mini-title">About CodEmpower</div>
             <h4 className="column-title ">
-              The Place Where You Can
-              <span className="shape-bg">Achieve</span>
+              Empowering Ethiopian Women in Tech
+              <span className="shape-bg">Through Education</span>
             </h4>
             <div>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered.
+              CodEmpower is a digital platform dedicated to providing Ethiopian women with the tools, resources, and support to thrive in the tech industry. Through accessible learning, mentorship, job opportunities, and community connections, CodEmpower bridges the gender gap in technology.
             </div>
             <ul className=" list-item space-y-6 pt-8">
               <li className="flex">
@@ -35,8 +34,7 @@ const About = () => {
                 <div className="flex-1">
                   <h4 className=" text-xl mb-1">Our Mission</h4>
                   <div>
-                    There are many variations of passages of the Lorem Ipsum
-                    available.
+                    Our mission is to empower Ethiopian women by providing free and affordable resources, mentorship, and career opportunities to help them excel in the tech industry.
                   </div>
                 </div>
               </li>
@@ -53,15 +51,14 @@ const About = () => {
                 <div className="flex-1">
                   <h4 className=" text-xl mb-1">Our Vision</h4>
                   <div>
-                    There are many variations of passages of the Lorem Ipsum
-                    available.
+                    We envision an inclusive tech ecosystem where women in Ethiopia can thrive through access to industry-leading learning resources, mentorship, and direct job opportunities.
                   </div>
                 </div>
               </li>
             </ul>
             <div className="pt-8">
               <a href="#" className=" btn btn-primary">
-                Read More Us
+                Explore CodEmpower
               </a>
             </div>
           </div>

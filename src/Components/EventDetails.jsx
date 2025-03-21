@@ -11,6 +11,7 @@ import {
   rc1,
   rc2,
 } from "../constant/images";
+import abe from "../assets/images/banner/women.jpg"
 
 const EventDetails = () => {
   useEffect(() => {
@@ -53,77 +54,44 @@ const EventDetails = () => {
   }, []);
 
   return (
-    <div className="nav-tab-wrapper tabs  section-padding">
+    <div className="nav-tab-wrapper tabs section-padding">
       <div className="container">
-        <img src={mainEvent} alt="" className=" lg:mb-10 mb-6 block w-full" />
+        <img
+          src={abe}
+          alt="Women in Tech Conference"
+          className="lg:mb-10 mb-6 block w-full rounded-lg"
+        />
         <div className="grid grid-cols-12 gap-[30px]">
           <div className="lg:col-span-8 col-span-12">
-            <h3>Painting Contest 2022</h3>
-            <div className="lg:my-6 my-4">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text. All the Lorem Ipsum generators on
-              the Internet tend to repeat predefined chunks as necessary, making
-              this the first true generator on the Internet. It uses a
-              dictionary of over 200 Latin words, combined with a handful of
-              model sentence structures, to generate Lorem Ipsum which looks
-              reasonable. The generated Lorem Ipsum is therefore always free
-              from repetition, injected humour.
+            <h3 className="text-3xl font-bold mb-6">Women in Tech Conference 2023</h3>
+            <div className="lg:my-6 my-4 text-lg text-gray-700">
+              Join us for the annual Women in Tech Conference, a gathering of inspiring women in the tech industry. This event is designed to empower Ethiopian women with the skills, knowledge, and connections needed to thrive in the digital world. Whether you're a beginner or an experienced professional, this conference offers something for everyone.
             </div>
             <div className="bg-secondary text-white p-10 rounded-md">
               <div
                 id="timer"
-                className="md:flex space-y-4 md:space-y-0 justify-between text-center "
+                className="md:flex space-y-4 md:space-y-0 justify-between text-center"
               >
-                {/* <div className="text-[44px] font-bold">
-                  {days}
-                  <div className="text-lg font-medium mt-2 capitalize">
-                    days
-                  </div>
-                </div>
-
-                <div className="text-[44px] font-bold">
-                  {hours}
-                  <div className="text-lg font-medium mt-2 capitalize">
-                    hours
-                  </div>
-                </div>
-
-                <div className="text-[44px] font-bold">
-                  {minutes}
-                  <div className="text-lg font-medium mt-2 capitalize">
-                    minutes
-                  </div>
-                </div>
-
-                <div className="text-[44px] font-bold">
-                  {seconds}
-                  <div className="text-lg font-medium mt-2 capitalize">
-                    seconds
-                  </div>
-                </div> */}
+                {/* Timer will be dynamically inserted here */}
               </div>
             </div>
-            <div className=" py-6">
-              Among the major reasons why Python is “slow”, it really boils down
-              to 2 — Python is interpreted as opposed to compiled, ultimately
-              leading to slower execution times; and the fact that it is
-              dynamically typed. Take, for example, TensorFlow, a Machine
-              Learning library available in Python. These libraries were
-              actually written in C++ and made available in Python, sort of
-              forming a Python implementation. The same goes for Numpy and, to
-              an extent, even Caer.
+            <div className="py-6 text-lg text-gray-700">
+              <h4 className="text-2xl font-bold mb-4">What to Expect</h4>
+              <ul className="list-disc pl-6 space-y-3">
+                <li>Keynote speeches from leading women in tech.</li>
+                <li>Interactive workshops on coding, AI, and data science.</li>
+                <li>Networking opportunities with industry professionals.</li>
+                <li>Panel discussions on breaking barriers in tech.</li>
+                <li>Career fair with top tech companies.</li>
+              </ul>
             </div>
             <div className="flex justify-between border-y border-[#ECECEC] py-4 md:mt-12 mt-10">
-              <div className=" text-black font-semibold">Previous</div>
-              <ul className="flex space-x-3 lg:justify-end items-center  ">
+              <div className="text-black font-semibold">Previous</div>
+              <ul className="flex space-x-3 lg:justify-end items-center">
                 {[fbIcon, pnIcon, twIcon, insIcon].map((item, indx) => (
                   <li key={indx}>
                     <a href="#" className="flex h-8 w-8">
-                      <img src={item} alt="" />
+                      <img src={item} alt="Social Media Icon" />
                     </a>
                   </li>
                 ))}
@@ -132,91 +100,87 @@ const EventDetails = () => {
           </div>
           <div className="lg:col-span-4 col-span-12 relative lg:-mt-20">
             <div className="sidebarWrapper max-w-[90%] mx-auto space-y-[30px]">
-              <div className="wdiget custom-text space-y-5 ">
-                <h4 className=" widget-title">Event Details</h4>
-                <ul className="list space-y-6  ">
-                  <li className=" flex space-x-3 ">
+              <div className="wdiget custom-text space-y-5">
+                <h4 className="widget-title text-2xl font-bold">Event Details</h4>
+                <ul className="list space-y-6">
+                  <li className="flex space-x-3">
                     <div className="flex-1 space-x-3 flex">
-                      <img src={circleClock} alt="" />
-                      <div>4:00 pm - 6:00 pm</div>
+                      <img src={circleClock} alt="Time Icon" />
+                      <div>4:00 PM - 8:00 PM</div>
                     </div>
                   </li>
-
-                  <li className=" flex space-x-3 ">
+                  <li className="flex space-x-3">
                     <div className="flex-1 space-x-3 flex">
-                      <img src="assets/images/svg/circle-c.svg" alt="" />
-                      <div>03 March, 2022</div>
+                      <img src={circleClock} alt="Date Icon" />
+                      <div>November 15, 2023</div>
                     </div>
                   </li>
-
-                  <li className=" flex space-x-3 ">
+                  <li className="flex space-x-3">
                     <div className="flex-1 space-x-3 flex">
-                      <img src={circleClock} alt="" />
-                      <div>12/A, NewYork Sydney City</div>
+                      <img src={circleClock} alt="Location Icon" />
+                      <div>Sheraton Addis, Addis Ababa, Ethiopia</div>
                     </div>
                   </li>
-
-                  <li className=" flex space-x-3 ">
+                  <li className="flex space-x-3">
                     <div className="flex-1 space-x-3 flex">
-                      <img src={circleClock} alt="" />
-                      <div>yourmail@gmail.com</div>
+                      <img src={circleClock} alt="Email Icon" />
+                      <div>info@codempower.org</div>
                     </div>
                   </li>
-
-                  <li className=" flex space-x-3 ">
+                  <li className="flex space-x-3">
                     <div className="flex-1 space-x-3 flex">
-                      <img src={circleClock} alt="" />
-                      <div>+88018 2829 98267</div>
+                      <img src={circleClock} alt="Phone Icon" />
+                      <div>+251 911 234 567</div>
                     </div>
                   </li>
                 </ul>
-                <a href="#" className=" btn btn-primary btn-md text-lg">
-                  Book A Seat
+                <a href="#" className="btn btn-primary btn-md text-lg w-full text-center">
+                  contact us
                 </a>
               </div>
 
               <div className="wdiget">
-                <h4 className=" widget-title">Special Guests</h4>
+                <h4 className="widget-title text-2xl font-bold">Special Guests</h4>
                 <ul className="list space-y-6">
-                  <li className=" flex space-x-4 border-[#ECECEC] ">
-                    <div className="flex-none ">
-                      <div className="h-20 w-20   rounded-full">
-                        <img
-                          src={rc1}
-                          alt=""
-                          className=" w-full h-full object-cover rounded-full"
-                        />
-                      </div>
-                    </div>
-                    <div className="flex-1 ">
-                      <div className="mb-1 font-bold text-black capitalize">
-                        Sofia d. Flora
-                      </div>
-                      <span className=" text-primary font-semibold">
-                        UI/UX Designer
-                      </span>
-                    </div>
-                  </li>
-                  <li className=" flex space-x-4 border-[#ECECEC] ">
-                    <div className="flex-none ">
-                      <div className="h-20 w-20   rounded-full">
-                        <img
-                          src={rc2}
-                          alt=""
-                          className=" w-full h-full object-cover rounded-full"
-                        />
-                      </div>
-                    </div>
-                    <div className="flex-1 ">
-                      <div className="mb-1 font-bold text-black capitalize">
-                        Jhonson Steven
-                      </div>
-                      <span className=" text-primary font-semibold">
-                        UI/UX Designer
-                      </span>
-                    </div>
-                  </li>
-                </ul>
+  <li className="flex space-x-4 border-[#ECECEC]">
+    <div className="flex-none">
+      <div className="h-20 w-20 rounded-full">
+        <img
+          src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+          alt="Ayelech Mohammed"
+          className="w-full h-full object-cover rounded-full"
+        />
+      </div>
+    </div>
+    <div className="flex-1">
+      <div className="mb-1 font-bold text-black capitalize">
+      Ayelech Mohammed
+      </div>
+      <span className="text-primary font-semibold">
+        Senior Software Engineer
+      </span>
+    </div>
+  </li>
+  <li className="flex space-x-4 border-[#ECECEC]">
+    <div className="flex-none">
+      <div className="h-20 w-20 rounded-full">
+        <img
+          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+          alt="Sara Tesfaye"
+          className="w-full h-full object-cover rounded-full"
+        />
+      </div>
+    </div>
+    <div className="flex-1">
+      <div className="mb-1 font-bold text-black capitalize">
+        Sara Tesfaye
+      </div>
+      <span className="text-primary font-semibold">
+        AI Researcher at Microsoft
+      </span>
+    </div>
+  </li>
+</ul>
               </div>
             </div>
           </div>
