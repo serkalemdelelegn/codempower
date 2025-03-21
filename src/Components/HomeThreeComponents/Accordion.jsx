@@ -8,7 +8,7 @@ const Accordion = () => {
       <div className="container">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px]">
           <div>
-            <div className="mini-title">Frequently Asked Question</div>
+            {/* <div className="mini-title">Frequently Asked Question</div> */}
             <div className="column-title ">
               General <span className="shape-bg">Questions</span>
             </div>
@@ -17,14 +17,12 @@ const Accordion = () => {
                 {({ open }) => (
                   <li className={open ? "open" : null} >
                     <Disclosure.Button type="button" className="accrodain-button">
-                      <span>What does it take excellent author?</span>
+                      <span>What is CodEmpower and who is it for?</span>
                       <span className="icon-pm"></span>
                     </Disclosure.Button>
 
                     <Disclosure.Panel className="content">
-                      Learn at your own pace, move between multiple courses, or
-                      switch to a different course. Earn a certificate for every
-                      learning program that you complete at no additional cost.
+                    CodEmpower is an online learning and work platform designed to empower women coders by providing education, real-world projects, and career opportunities.
                     </Disclosure.Panel>
                   </li>
                 )}
@@ -34,14 +32,12 @@ const Accordion = () => {
                 {({ open }) => (
                   <li className={open ? "open" : null} >
                     <Disclosure.Button type="button" className="accrodain-button">
-                      <span>What does it take excellent author?</span>
+                      <span>How can I enroll in courses on CodEmpower?</span>
                       <span className="icon-pm"></span>
                     </Disclosure.Button>
 
                     <Disclosure.Panel className="content">
-                      Learn at your own pace, move between multiple courses, or
-                      switch to a different course. Earn a certificate for every
-                      learning program that you complete at no additional cost.
+                    browse available courses, and enroll in the ones that match your learning goals.
                     </Disclosure.Panel>
                   </li>
                 )}
@@ -51,14 +47,12 @@ const Accordion = () => {
                 {({ open }) => (
                   <li className={open ? "open" : null} >
                     <Disclosure.Button type="button" className="accrodain-button">
-                      <span>What does it take excellent author?</span>
+                      <span>Does CodEmpower offer job opportunities after completing courses?</span>
                       <span className="icon-pm"></span>
                     </Disclosure.Button>
 
                     <Disclosure.Panel className="content">
-                      Learn at your own pace, move between multiple courses, or
-                      switch to a different course. Earn a certificate for every
-                      learning program that you complete at no additional cost.
+                    Yes CodEmpower connects learners with real projects and job opportunities helping them build their careers in tech.
                     </Disclosure.Panel>
                   </li>
                 )}
@@ -68,14 +62,12 @@ const Accordion = () => {
                 {({ open }) => (
                   <li className={open ? "open" : null} >
                     <Disclosure.Button type="button" className="accrodain-button">
-                      <span>What does it take excellent author?</span>
+                      <span>Do I need prior coding experience to join CodEmpower?</span>
                       <span className="icon-pm"></span>
                     </Disclosure.Button>
 
                     <Disclosure.Panel className="content">
-                      Learn at your own pace, move between multiple courses, or
-                      switch to a different course. Earn a certificate for every
-                      learning program that you complete at no additional cost.
+                    No CodEmpower offers courses for beginners as well as advanced learners so you can start from any level.
                     </Disclosure.Panel>
                   </li>
                 )}
