@@ -9,9 +9,8 @@ const InstructorDetails = () => {
     <>
       <Header />
       <PageBanner
-        title={"About Instructor"}
-        pageTitle={"Team Member"}
-        num={1}
+        title={"Freelancing"}
+        pageTitle={"Member"}
       />
       <CoralinaCloud />
       <Footer />
