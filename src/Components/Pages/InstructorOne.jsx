@@ -1,5 +1,5 @@
 import React from "react";
-import Brands from "../Brands";
+//import Brands from "../Brands";
 import Footer from "../Footer";
 import Header from "../Header";
 import Testimonial from "../HomeThreeComponents/Testimonial";
@@ -10,13 +10,14 @@ const InstructorOne = () => {
   return (
     <>
       <Header />
-      <PageBanner title={"Instructor"} pageName={"Instructor"} num={1} />
+      <PageBanner title={"Instructor"} //pageName={"Instructor"} num={1}
+       />
       <Team />
       <Testimonial />
-      <Brands
+      {/* <Brands
         section_padding_bottom={"section-padding-bottom"}
         section_padding_top={"section-padding-top"}
-      />
+      /> */}
       <Footer />
     </>
   );

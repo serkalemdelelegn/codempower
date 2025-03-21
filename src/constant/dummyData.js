@@ -148,16 +148,16 @@ export const topicsData = [
 ];
 
 export const teamData = [
-  { img: team1, name: "Erics Widget", title: "UI/UX Designer" },
-  { img: team2, name: "Daniel Steven", title: "Developer" },
-  { img: team3, name: "Nelson Decosta", title: "Digital Marketer" },
-  { img: team4, name: "Selina Gomez", title: "UI/UX Designer" },
+  { img: team1, name: "Bontu Abera", title: "UI/UX Designer" },
+  { img: team2, name: "Eden Dechasa", title: "Backend Developer" },
+  { img: team3, name: "Yordanos Eshetu", title: "Frontend Developer" },
+  { img: team4, name: "Buzayehu Yohannes", title: "UI/UX Designer" },
 ];
 export const instructorData = [
-  { img: team5, name: "Erics Widget", title: "UI/UX Designer" },
-  { img: team6, name: "Daniel Steven", title: "Developer" },
-  { img: team7, name: "Nelson Decosta", title: "Digital Marketer" },
-  { img: team8, name: "Selina Gomez", title: "UI/UX Designer" },
+  { img: team5, name: "Bontu Abera", title: "UI/UX Designer" },
+  { img: team6, name: "Eden Dechasa", title: "Backend Developer" },
+  { img: team7, name: "Yordanos Eshetu", title: "Frontend Developer" },
+  { img: team8, name: "Buzayehu Yohannes", title: "UI/UX Designer" },
 ];
 
 export const blogsData = [

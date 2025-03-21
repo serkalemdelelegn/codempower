@@ -1,5 +1,5 @@
 import React from "react";
-import about3 from "../../assets/images/all-img/about3.png";
+import about3 from "../../assets/images/all-img/abou1.png";
 const About = () => {
   return (
     <div className="about-area section-padding">
@@ -9,21 +9,19 @@ const About = () => {
             <img src={about3} alt="" className=" block w-full" />
           </div>
           <div className="xl:col-span-5 lg:col-span-6 col-span-12">
-            <div className="mini-title">About Edumim</div>
+            <div className="mini-title">About CodEmpower</div>
             <h4 className="column-title ">
               We Provide The Best Online{" "}
-              <span className="shape-bg">Education</span>
+              <span className="shape-bg">Education</span> and <span className="shape-bg">career </span>platform for women
             </h4>
             <div className=" mb-8">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour.
+            CodEmpower empowers women coders with quality education and a dedicated work platform. It offers flexible learning, real projects, and career opportunities, supported by a strong community and mentorship.
             </div>
             <div className="space-y-8">
               <div className="progressbar-group">
                 <div className="flex justify-between" data-width="85%">
                   <span className="block text-black font-semibold mb-2">
-                    Business Studies
+                    UI/UX Design
                   </span>
                   <span className=" block mb-2 text-black font-semibold">
                     86%
@@ -39,7 +37,7 @@ const About = () => {
               <div className="progressbar-group">
                 <div className="flex justify-between" data-width="67%">
                   <span className="block text-black font-semibold mb-2">
-                    Marketing
+                    Backend Development
                   </span>
                   <span className=" block mb-2 text-black font-semibold">
                     67%
@@ -55,7 +53,7 @@ const About = () => {
               <div className="progressbar-group">
                 <div className="flex justify-between" data-width="95%">
                   <span className="block text-black font-semibold mb-2">
-                    Design & Development
+                    Frontend Development
                   </span>
                   <span className=" block mb-2 text-black font-semibold">
                     95%

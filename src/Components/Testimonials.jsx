@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import testiLeft from "../assets/images/all-img/testi-left.png";
+// import testiLeft from "../assets/images/all-img/testi-left.png";
+// import { faq } from "../constant/images";
 
 const Testimonials = () => {
   return (
@@ -49,9 +50,9 @@ const Testimonials = () => {
       </div> */}
       <div className="container">
         <div className="grid grid-cols-12 lg:gap-10 gap-6 ">
-          <div className="xl:col-span-7 lg:col-span-6 col-span-12">
+          {/* <div className="xl:col-span-7 lg:col-span-6 col-span-12">
             <img src={testiLeft} alt="" draggable="false" />
-          </div>
+          </div> */}
           <div className="xl:col-span-5 lg:col-span-6 col-span-12 flex flex-col justify-center ">
             <div className="mini-title">Testimonial</div>
             <h4 className="column-title ">
@@ -73,8 +74,13 @@ const Testimonials = () => {
               </a>
             </div> */}
           </div>
+          {/* <div>
+            <img src={faq} alt="" />
+          </div> */}
         </div>
+        
       </div>
+      
     </div>
   );
 };
