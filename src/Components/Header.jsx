@@ -122,20 +122,20 @@ const Header = () => {
                           <Link
                             to={"/react-templates/edumim/instructor-details"}
                           >
-                            Instructor detail
+                            Freelancing
                           </Link>
                         </li>
                       </ul>
                     </li>
-                    <li className="menu-item-has-children">
-                      <a href="#">Courses</a>
+                    <li className="">
+                      <a href="/react-templates/edumim/courses-sidebar">Courses</a>
                       <ul className="sub-menu">
                         {/* <li>
                           <Link to={"/react-templates/edumim/courses"}>
                             Courses
                           </Link>
                         </li> */}
-                        <li>
+                        {/* <li>
                           <Link to={"/react-templates/edumim/courses-sidebar"}>
                             Courses
                           </Link>
@@ -144,7 +144,7 @@ const Header = () => {
                           <Link to={"/react-templates/edumim/single-course"}>
                             Course Detail
                           </Link>
-                        </li>
+                        </li> */}
                       </ul>
                     </li>
                     
