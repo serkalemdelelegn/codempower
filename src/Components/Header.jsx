@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo/logo.svg";
+import logo from "../assets/images/logo/cass.png";
 import MobileMenu from "./MobileMenu";
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
                 to={"/react-templates/edumim"}
                 className="brand-logo flex-none lg:mr-10 md:w-auto max-w-[120px] "
               >
-                <img src={logo} alt="logo" />
+                <img src={logo} alt="logo" className="w-20 h-15"/>
               </Link>
               <div className="flex items-center flex-1">
                 <div className="flex-1 main-menu relative mr-[74px]">
