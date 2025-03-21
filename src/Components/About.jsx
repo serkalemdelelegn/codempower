@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import lightImg from "../assets/images/svg/light.svg";
-import aboutOne from "../assets/images/all-img/about1.png";
+import aboutOne from "../assets/images/banner/man12.jpg";
 import targetImg from "../assets/images/svg/target.svg";
 const About = () => {
   return (

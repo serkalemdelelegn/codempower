@@ -43,7 +43,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="imge-box absolute xl:right-[-260px] hidden xl:block   bottom-0  ">
-          <img src={ManOne} alt="manOne" />
+          <img src={ManOne} alt="manOne" className="abe"/>
         </div>
       </div>
     </section>
