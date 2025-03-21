@@ -8,7 +8,7 @@ import Feature from "../Feature";
 import Footer from "../Footer";
 import Header from "../Header";
 // import NewsLetter from "../NewsLetter";
-import Platform from "../Platform";
+// import Platform from "../Platform";
 import Team from "../Team";
 import Testimonials from "../Testimonials";
 import Topics from "../Topics";
@@ -25,7 +25,7 @@ const HomeOne = () => {
       {/* <Brands section_padding_bottom={"section-padding-bottom"} /> */}
       <Feature />
       <Courses />
-      <Platform />
+      {/* <Platform /> */}
       {/* <NewsLetter /> */}
       <Topics />
       <Testimonials />
