@@ -35,16 +35,35 @@ const Header = () => {
               <div className="flex items-center flex-1">
                 <div className="flex-1 main-menu relative mr-[74px]">
                   <ul className="menu-active-classNamees">
-                    <li>
+                    <li className={`menu-item-has-children `}>
                       <a href="#">Home</a>
-                   
+                      <ul className="sub-menu">
+                        <li>
+                          <Link to={"/react-templates/edumim"}> Home One</Link>
+                        </li>
+                        <li>
+                          <Link to={"/react-templates/edumim/home-two"}>
+                            Home Two
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={"/react-templates/edumim/home-three"}>
+                            Home Three
+                          </Link>
+                        </li>
+                      </ul>
                     </li>
                     <li className="menu-item-has-children">
                       <a href="#">Pages</a>
                       <ul className="sub-menu">
                         <li>
                           <Link to={"/react-templates/edumim/about"}>
-                            About
+                            About 1
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={"/react-templates/edumim/about-two"}>
+                            About 2
                           </Link>
                         </li>
                         <li>
@@ -52,8 +71,11 @@ const Header = () => {
                             Instructor
                           </Link>
                         </li>
-                        
-                        
+                        <li>
+                          <Link to={"/react-templates/edumim/instructor-two"}>
+                            Instructor 2
+                          </Link>
+                        </li>
                         <li>
                           <Link
                             to={"/react-templates/edumim/instructor-details"}
