@@ -53,7 +53,7 @@ import team5 from "../assets/images/all-img/team5.png";
 import team6 from "../assets/images/all-img/team6.png";
 import team7 from "../assets/images/all-img/team7.png";
 import team8 from "../assets/images/all-img/team8.png";
-import t1 from "../assets/images/all-img/t1.png";
+import t1 from "../assets/images/all-img/questions.png";
 import faq from "../assets/images/all-img/questions.png";
 import file from "../assets/images/svg/file.svg";
 import clock from "../assets/images/svg/clock.svg";

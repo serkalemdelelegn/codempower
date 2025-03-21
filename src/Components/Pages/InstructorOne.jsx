@@ -10,7 +10,8 @@ const InstructorOne = () => {
   return (
     <>
       <Header />
-      <PageBanner title={"Instructor"} pageName={"Instructor"} num={1} />
+      <PageBanner title={"Instructor"} //pageName={"Instructor"} num={1}
+       />
       <Team />
       <Testimonial />
       {/* <Brands

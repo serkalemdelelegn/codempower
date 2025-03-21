@@ -33,7 +33,7 @@ const Testimonial = () => {
         modules={[Navigation, EffectCreative]}
         className="container"
       >
-        <SwiperSlide className="grid  lg:grid-cols-2 grid-cols-1  xl:gap-[60px] gap-6">
+        
           <div>
             <div className="slider-nav">
               <div className="single-item">
@@ -48,10 +48,10 @@ const Testimonial = () => {
             </div>
           </div>
           <div>
-            <div className="mini-title">Testimonial</div>
+            <div className="mini-title">Testimonial about the platfrom</div>
             <h4 className="column-title ">
-              Our Tallented Students Valuable
-              <span className="shape-bg text-black">Feedback</span>
+              Our feature 
+              <span className="shape-bg text-black">CodEmpower</span> partners
             </h4>
             <div className="slider-for mt-10">
               <div className="single-item">
@@ -60,14 +60,11 @@ const Testimonial = () => {
                     “It’s Truly The Best Solution For Me”
                   </h3>
                   <div className="mb-8">
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered. There are many
-                    variations of passages of Lorem Ipsum available, but the
-                    majority have suffered alteration.
+                  CodEmpower empowers women coders with quality education and a dedicated work platform. It offers flexible learning, real projects, and career opportunities, supported by a strong community and mentorship.
                   </div>
                   <div>
                     <span className=" block  font-semibold text-black mb-1">
-                      Alfred Helmerich
+                     Nancy Tesfaye
                     </span>
                     <span className=" block  font-semibold text-primary">
                       Executive Training Manager
@@ -77,8 +74,8 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide className="grid  lg:grid-cols-2 grid-cols-1  xl:gap-[60px] gap-6">
+        
+        {/* <SwiperSlide className="grid  lg:grid-cols-2 grid-cols-1  xl:gap-[60px] gap-6">
           <div>
             <div className="slider-nav">
               <div className="single-item">
@@ -129,8 +126,8 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
-        <div className="space-x-5 flex justify-center lg:mt-10 mt-8">
+        </SwiperSlide> */}
+        {/* <div className="space-x-5 flex justify-center lg:mt-10 mt-8">
           <button
             className="lg:h-[64px] lg:w-[64px] h-12 w-12 flex flex-col items-center justify-center rounded-md bg-white hover:bg-primary
                     hover:text-white shadow-box slickprev text-3xl text-primary"
@@ -145,7 +142,7 @@ const Testimonial = () => {
           >
             <iconify-icon icon="heroicons:arrow-right-20-solid"></iconify-icon>
           </button>
-        </div>
+        </div> */}
       </Swiper>
     </div>
   );
