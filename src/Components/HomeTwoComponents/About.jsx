@@ -1,5 +1,5 @@
 import React from "react";
-import about3 from "../../assets/images/all-img/about3.png";
+import about3 from "../../assets/images/all-img/abou1.png";
 const About = () => {
   return (
     <div className="about-area section-padding">
