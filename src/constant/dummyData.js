@@ -33,22 +33,22 @@ import {
 export const achivementCounter = [
   {
     icon: counter1,
-    num: 82 + "k",
-    sector: "Enrolled Students",
+    num: 1 + "k",
+    sector: "Students",
   },
   {
     icon: counter2,
-    num: 460,
+    num: 20,
     sector: "Academic Programs",
   },
   {
     icon: counter3,
-    num: 20,
+    num: 100,
     sector: "Certified Studens",
   },
   {
     icon: counter4,
-    num: 200,
+    num: 10,
     sector: "Award Winnig",
   },
 ];

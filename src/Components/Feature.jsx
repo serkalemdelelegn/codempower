@@ -5,9 +5,9 @@ const Feature = () => {
     <div className="feature-area bg-[url('../images/all-img/section-bg-1.png')] bg-cover bg-no-repeat bg-center section-padding">
       <div className="container">
         <div className="text-center">
-          <div className="mini-title">Core Features</div>
+          
           <div className="column-title ">
-            Why <span className="shape-bg">Choose</span> Edumim
+            Why Choose <span className="shape-bg">CodEmpower</span> 
           </div>
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px] pt-10">
@@ -22,8 +22,8 @@ const Feature = () => {
               Learn More Anywhere
             </h4>
             <div className="transition duration-150 group-hover:text-white">
-              Learn from anywhere in world on desktop, mobile or tablet with an
-              Internet connection.{"}"}
+              Learn from anywhere in Ethiopia on desktop, mobile or tablet with an
+              Internet connection.
             </div>
           </div>
 
@@ -38,8 +38,8 @@ const Feature = () => {
               Expert Instructor
             </h4>
             <div className="transition duration-150 group-hover:text-white">
-              Learn from anywhere in world on desktop, mobile or tablet with an
-              Internet connection.{"}"}
+              Learn from anywhere in Ethiopia on desktop, mobile or tablet with an
+              Internet connection.
             </div>
           </div>
 
@@ -54,8 +54,8 @@ const Feature = () => {
               24/7 Strong Support
             </h4>
             <div className="transition duration-150 group-hover:text-white">
-              Learn from anywhere in world on desktop, mobile or tablet with an
-              Internet connection.{"}"}
+              Learn from anywhere in Ethiopia on desktop, mobile or tablet with an
+              Internet connection.
             </div>
           </div>
         </div>
