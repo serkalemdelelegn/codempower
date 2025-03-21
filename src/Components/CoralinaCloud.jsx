@@ -29,12 +29,10 @@ const CoralinaCloud = () => {
               </div>
               <div className="px-8 pb-8">
                 <h5 className=" text-2xl font-bold text-black mb-4">
-                  Coralina Cloud
+                Aberash Debaba
                 </h5>
                 <div className="mb-8">
-                  Professor & Chair of Department of Computer Science at
-                  University the where been since 1994. vulput for the
-                  pellentesque commodo.
+                Front-End Web Developer & UI/UX Designer
                 </div>
                 <ul className=" space-y-[19px]">
                   <li className=" flex items-center space-x-3">
@@ -43,7 +41,7 @@ const CoralinaCloud = () => {
                         <iconify-icon icon="heroicons:envelope"></iconify-icon>
                       </span>
                     </div>
-                    <span className=" flex-1">info@designpixls.com</span>
+                    <span className=" flex-1">codempower.com</span>
                   </li>
                   <li className=" flex items-center space-x-3">
                     <div className="flex-none">
@@ -51,7 +49,7 @@ const CoralinaCloud = () => {
                         <iconify-icon icon="heroicons:phone"></iconify-icon>
                       </span>
                     </div>
-                    <span className=" flex-1">8939 2390 3879 29</span>
+                    <span className=" flex-1">+251962455648</span>
                   </li>
                   <li className=" flex items-center space-x-3">
                     <div className="flex-none">
@@ -59,11 +57,11 @@ const CoralinaCloud = () => {
                         <iconify-icon icon="heroicons:map-pin"></iconify-icon>
                       </span>
                     </div>
-                    <span className=" flex-1">6/2, Stavello Hall, Sydney</span>
+                    <span className=" flex-1">Addis Ababa, Ethiopia</span>
                   </li>
                 </ul>
                 <div className=" text-xl text-black mt-8 mb-4">
-                  Follow Me On:
+                  Follow us On:
                 </div>
                 <ul className="flex space-x-4 ">
                   {[fbIcon, pnIcon, twIcon, insIcon].map((item, indx) => (
@@ -79,21 +77,15 @@ const CoralinaCloud = () => {
           </div>
           <div className="lg:col-span-8 col-span-12">
             <div className="mb-10">
-              <h2>Coralina Cloud</h2>
-              <span className=" inline-block text-primary">UI/UX Designer</span>
+              <h2>Aberash Debaba</h2>
+              <span className=" inline-block text-primary">Front-End Web Developer & UI/UX Designer</span>
             </div>
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-              vulputate pellentesque commodo. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit.
-              <br /> <br /> Donec faucibus imperdiet libero, at lacinia metus.
-              Quisque finibus ante non arcu aliquet, nec vestibulum dolor
-              condimentum. Nulla facilisi. Vestibulum porttitor vestibulum est
-              eu dignissim. Quisque blandit elementum convallis. Ut et mi
-              hendrerit, posuere purus ac, facilisis nibh.
+            Aberash Debaba is a talented front-end developer with expertise in creating responsive and visually appealing websites. She specializes in HTML, CSS, JavaScript, and frameworks like React.
+              <br /> <br /> With a passion for user-centered design, she also focuses on crafting intuitive UI/UX experiences. As a freelancer, Aberash has collaborated with various startups and businesses, delivering high-quality web solutions that enhance user engagement and functionality.
             </div>
             <div className=" grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-[30px] mt-24">
-              <div className="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
+              {/* <div className="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
                 <img
                   src={counter1}
                   alt=""
@@ -104,9 +96,9 @@ const CoralinaCloud = () => {
                   k+
                 </h4>
                 <p>Enrolled Students</p>
-              </div>
+              </div> */}
 
-              <div className="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
+              {/* <div className="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
                 <img
                   src={counter2}
                   alt=""
@@ -116,9 +108,9 @@ const CoralinaCloud = () => {
                   <span className="counter">460</span>+
                 </h4>
                 <p>Academic Programs</p>
-              </div>
+              </div> */}
 
-              <div className="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
+              {/* <div className="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
                 <img
                   src={counter3}
                   alt=""
@@ -128,14 +120,14 @@ const CoralinaCloud = () => {
                   <span className="counter">20</span>+
                 </h4>
                 <p>Certified Students</p>
-              </div>
+              </div> */}
             </div>
-            <div className="mt-20 mb-14">
+            {/* <div className="mt-20 mb-14">
               <div className="mini-title">Courses By Coralina</div>
               <div className="column-title ">
                 Courses By <span className="shape-bg">Coralina</span>
               </div>
-            </div>
+            </div> */}
             <div className=" grid xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 grid-cols-1  gap-[30px]">
               {courseData.map((course, index) => (
                 <Course course={course} key={index} index={index} />

@@ -212,7 +212,7 @@ const SideBar = () => {
           </li>
         </ul>
       </div>
-      <div className="wdiget widget_catagory">
+      {/* <div className="wdiget widget_catagory">
         <h4 className="widget-title">Language</h4>
 
         <ul className=" list-item space-y-5">
@@ -256,8 +256,8 @@ const SideBar = () => {
             </label>
           </li>
         </ul>
-      </div>
-      <div className="wdiget widget_catagory">
+      </div> */}
+      {/* <div className="wdiget widget_catagory">
         <h4 className="widget-title">Rating By</h4>
 
         <ul className=" list-item space-y-5">
@@ -321,7 +321,7 @@ const SideBar = () => {
             </label>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };
