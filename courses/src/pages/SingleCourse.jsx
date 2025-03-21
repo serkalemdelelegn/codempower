@@ -36,23 +36,17 @@ function SingleCourse() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header with navigation */}
-      <header className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 py-4">
-          <nav className="flex items-center space-x-2 text-sm text-gray-500">
-            <span>Pages</span>
-            <span>-</span>
-            <span className="text-gray-900">Course Details</span>
-          </nav>
-        </div>
-      </header>
+      
 
       <main className="max-w-7xl mx-auto px-4 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main content */}
           <div className="lg:col-span-2">
             {/* Course image */}
-            <div className="bg-gray-200 rounded-lg aspect-video mb-8"></div>
+            <div className="bg-gray-200 rounded-lg aspect-video mb-8">
+              <img className='w-full' src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?auto=format&fit=crop&q=80&w=370&h=248" alt="course image" />
+            </div>
+
 
             <CourseHeader
               title="UI/UX Design And Graphics Learning Bootcamp 2022"
